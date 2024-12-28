@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App-box {
+  width: 600px;
+  height: 90vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px -1px 15px -1px #5d5c5c;
+  padding: 10px 5px;
+  background-color: aliceblue;
+}
+.heading{
+  margin-bottom: 50px;
+  color: cadetblue;
+}
+.card{
+  margin: 20px 0;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #fff; */
+  position: relative;
+  color: cadetblue;
+}
+.input{
+  margin-right: 25px;
+  padding: 10px 25px;
+  background-color: transparent;
+  color: black;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 10px ;
+  left: 20px;
+  border: none;
+}
+.condition{
+  position: absolute;
+  top: 80px ;
+  left: 30px;
+  font-size: 20px;
+}
+.temp{
+  position: absolute;
+  top: 0;
+  left: 25%;
+  font-size: 2.8rem;
+}
+.Address{
+  position: absolute;
+  top: 90px ;
+  left: 25%;
+  font-size: 18px;
+}
+.details{
+  max-width: 100%;
+  height: max-content;
+  background-color: #fff;
+  position: relative;
+  top: 60px;
+  text-align: left;
+  padding: 10px 15px;
+}
+.details h3{
+  margin: 0;
+}
